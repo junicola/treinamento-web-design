@@ -1,0 +1,111 @@
+body{
+    font-family: monospace;
+}
+
+#calculadora {
+    background: linear-gradient(rgb(67, 202, 217), rgb(132, 235, 247));
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#display {
+    background-color: white;
+    border: 0.5px solid rgb(189, 189, 189);
+    padding: 10px;
+    margin-bottom: 20px;   
+    font-size: 25px; 
+    border-radius: 10px;
+}
+
+#buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+        "ac     porc    x       divs"
+        "sete   oito    nove    igual"
+        "quatro cinco   seis    menos"
+        "um     dois    tres    mais"
+        "zero   zero    virg    mais"
+}
+
+.button{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+#buttons:nth-child(1) {
+    grid-area: ac;
+}
+
+.button:nth-child(2) {
+    grid-area: porc;
+}
+
+.button:nth-child(3) {
+    grid-area: x;
+}
+
+.button:nth-child(4) {
+    grid-area: divs;
+}
+
+.button:nth-child(5) {
+    grid-area: sete;
+}
+
+.button:nth-child(6) {
+    grid-area: oito;
+}
+
+.button:nth-child(7) {
+    grid-area: nove;
+}
+
+.button:nth-child(8) {
+    grid-area: igual;
+}
+
+.button:nth-child(9) {
+    grid-area: quatro;
+}
+
+.button:nth-child(10) {
+    grid-area: cinco;
+}
+
+.button:nth-child(11) {
+    grid-area: seis;
+}
+
+.button:nth-child(12) {
+    grid-area: menos;
+}
+
+.button:nth-child(13) {
+    grid-area: um;
+}
+
+.button:nth-child(14) {
+    grid-area: dois;
+}
+
+.button:nth-child(15) {
+    grid-area: tres;
+}
+
+.button:nth-child(16) {
+    grid-area: mais;
+    background-color: rgb(207, 107, 169);
+    color:white;
+}
+
+.button:nth-child(17) {
+    grid-area: zero;
+    background-color: rgb(207, 107, 169);
+    color:white;
+}
+
+
+
