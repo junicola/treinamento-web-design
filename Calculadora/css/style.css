@@ -2,21 +2,25 @@ body{
     font-family: monospace;
 }
 
-#calculadora {
-    background: linear-gradient(rgb(67, 202, 217), rgb(132, 235, 247));
-    width: 50%;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#display {
+#display input {
     background-color: white;
     border: 0.5px solid rgb(189, 189, 189);
     padding: 10px;
     margin-bottom: 20px;   
     font-size: 25px; 
     border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
 }
+
+#calculadora {
+    background: linear-gradient(rgb(67, 202, 217), rgb(132, 235, 247));
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    margin:0;
+}
+
 
 #buttons {
     display: grid;
