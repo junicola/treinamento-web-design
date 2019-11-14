@@ -10,16 +10,16 @@
 </head>
 <body>
     <div id="calculadora">
-        <div id="display"><input id="inputTela"></div>
+        <div id="display"><input id="inputTela" value="0"></div>
         <div id="buttons">
-            <button class="button" onclick="digitaNum(this)" value="0">AC</button>
+            <button class="button" onclick="limpar(this)" value="AC">AC</button>
             <button class="button" onclick="salvarOperacao(this)" value="%">%</button>
             <button class="button" onclick="salvarOperacao(this)" value="*">X</button>
             <button class="button" onclick="salvarOperacao(this)" value="/">/</button>
             <button class="button" onclick="digitaNum(this)" value="7">7</button>
             <button class="button" onclick="digitaNum(this)" value="8">8</button>
             <button class="button" onclick="digitaNum(this)" value="9">9</button>
-            <button class="button igual" onclick="calcular()" >=</button>
+            <button class="button" onclick="calcular()" >=</button>
             <button class="button" onclick="digitaNum(this)" value="4">4</button>
             <button class="button" onclick="digitaNum(this)" value="5">5</button>
             <button class="button" onclick="digitaNum(this)" value="6">6</button>
@@ -29,7 +29,7 @@
             <button class="button" onclick="digitaNum(this)" value="3">3</button>
             <button class="button" onclick="salvarOperacao(this)" value="+">+</button>
             <button class="button" onclick="digitaNum(this)" value="0">0</button>
-            <button class="button" onclick="digitaNum(this)" value=",">,</button>
+            <button class="button" onclick="digitaNum(this)" value=".">,</button>
         </div>
 
         
